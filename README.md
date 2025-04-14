@@ -1,9 +1,9 @@
 In this assignment we trained and evaluated three different CNN architectures on CIFAR10: 
 We designed 2 variations of the LeNet5 architecture, which we believed would improve performance. 
 
-# 1) CIFAR10_lenet: simple LeNet5
-# 2) CIFAR10_model1: LeNet5 + BatchNorm
-# 3) CIFAR10_model2. LeNet5 + BatchNorm + Dropout
+1) CIFAR10_lenet: simple LeNet5
+2) CIFAR10_model1: LeNet5 + BatchNorm
+3) CIFAR10_model2. LeNet5 + BatchNorm + Dropout
 
 We use early stopping, learning rate scheduling, pretraining, saving and transfering weights and data augmentation.
 For training we used CE loss and Adam optimizer. Initial learning rate was set to
